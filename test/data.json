@@ -1,0 +1,10 @@
+{
+  "host": "literal",
+  "data": [
+    {"price": 6000, "name": "a"},
+    {"price": 5760, "name": "b"},
+    {"price": 5600, "name": "c"},
+  ],
+  "test": null,
+  "test2": true
+}

@@ -1,0 +1,10 @@
+add_library(AST
+JsonValue.cpp
+JsonObject.cpp
+JsonArray.cpp
+JsonString.cpp
+JsonInteger.cpp
+JsonReal.cpp
+JsonBool.cpp
+JsonNull.cpp
+)
