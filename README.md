@@ -27,4 +27,4 @@ then start build
 $ cmake --build ./build
 ```
 
-enjuy!
+enjoy!
