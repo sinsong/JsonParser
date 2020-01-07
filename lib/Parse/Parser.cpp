@@ -59,7 +59,7 @@ JsonValue* Parser::value()
     switch(look->tag)
     {
     case Token::TSTRING:
-		value = new JsonString(std::dynamic_pointer_cast<TString>(look)->value);
+        value = new JsonString(std::dynamic_pointer_cast<TString>(look)->value);
         move();
         break;
     case Token::TNUMBER:
@@ -67,9 +67,9 @@ JsonValue* Parser::value()
 #pragma clang diagnostic ignored "-Wpotentially-evaluated-expression"
         if(typeid(*look) == typeid(TInteger))
 #pragma clang diagnostic pop
-			value = new JsonInteger(std::dynamic_pointer_cast<TInteger>(look)->value);
-		else
-			value = new JsonReal(std::dynamic_pointer_cast<TReal>(look)->value);
+            value = new JsonInteger(std::dynamic_pointer_cast<TInteger>(look)->value);
+        else
+            value = new JsonReal(std::dynamic_pointer_cast<TReal>(look)->value);
         move();
         break;
     case Token::TTRUE:
