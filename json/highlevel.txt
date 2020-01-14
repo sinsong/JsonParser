@@ -1,0 +1,30 @@
+value -> $object
+       | $array
+       | $string
+       | $number
+       | true
+       | false
+       | null
+
+ws -> 空白符
+
+object & array
+=====
+
+# { "key" : "value" } -> member
+# [ "value" ]         -> element
+
+object -> { $members }
+
+members -> $member
+         | $member , $members
+
+member -> $ws $string $ws : $element
+
+array -> [ $ws ]
+       | [ $elements ]
+
+elements -> $element
+          | $element , $elements
+
+element -> $ws $value $ws

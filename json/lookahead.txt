@@ -1,0 +1,11 @@
+{    ...} object
+[    ...] array
+:         member分隔
+,         分隔
+
+"    ..." string
+0    -9   number
+-    0.5  negetive number
+t    rue  true
+f    alse false
+n    ull  null

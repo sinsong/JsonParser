@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "price": 6000,
+      "name": "雪浪纸",
+      "id": 1,
+      "type": "绘画工具",
+      "department": "画室"
+    },
+    {
+      "price": 3800,
+      "name": "黑曜石石板",
+      "id": 2,
+      "type": "绘画工具",
+      "department": "画室"
+    },
+    {
+      "price": 5600,
+      "name": "深海乌贼的墨汁",
+      "id": 3,
+      "type": "绘画工具",
+      "department": "画室"
+    },
+    {
+      "price": 6200,
+      "name": "巨蝙蝠的血",
+      "id": 4,
+      "type": "绘画工具",
+      "department": "画室"
+    },
+    {
+      "price": 12138,
+      "name": "古陨石粉",
+      "id": 5,
+      "type": "绘画工具",
+      "department": "画室"
+    },
+    {
+      "price": 36000,
+      "name": "月毯的眼泪",
+      "id": 6,
+      "type": "绘画工具",
+      "department": "画室"
+    },
+    {
+      "price": 999999,
+      "name": "渊龙之黑伞",
+      "id": 7,
+      "type": "防御工具",
+      "department": ""
+    },
+    {
+      "price": 52000,
+      "name": "赫尔辛根默斯肯香皂",
+      "id": 8,
+      "type": "洗浴用品",
+      "department": "后勤"
+    }
+  ]
+}

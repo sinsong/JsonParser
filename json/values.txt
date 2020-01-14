@@ -1,0 +1,49 @@
+string
+=====
+
+string -> " $characters "
+
+characters -> (space)
+            | $character $characters
+
+character -> 0020 ~ 10FFFF - " - \
+           | \$escape
+
+escape -> "
+        | \
+        | /
+        | b
+        | f
+        | n
+        | r
+        | t
+        | u $hex $hex $hex $hex
+
+hex -> $digit
+     | A ~ F
+     | a ~ f
+
+integer
+=====
+
+number -> $integer $fraction $exponent
+
+integer -> $digit
+         | 1-9 $digits
+         | - $digit
+         | - 1-9 $digits
+
+digits -> $digit
+        | $digit $digits
+
+digit -> 0 - 9
+
+fraction -> . $digits
+
+exponent -> E $sign $digits
+          | e $sign $digits
+
+sign -> (空)
+      | +
+      | -
+
