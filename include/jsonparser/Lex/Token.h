@@ -3,6 +3,7 @@
 
 #include <string>
 
+// 词法单元
 class Token
 {
 public:
@@ -30,6 +31,7 @@ public:
     int tag;
 };
 
+// 整数
 class TInteger : public Token
 {
 public:
@@ -46,6 +48,7 @@ public:
     int value;
 };
 
+// 实数
 class TReal : public Token
 {
 public:
@@ -62,6 +65,7 @@ public:
     float value;
 };
 
+// 字符串
 class TString : public Token
 {
 public:

@@ -3,6 +3,7 @@
 
 #include "jsonparser/AST/JsonValue.h"
 
+// 布尔值
 class JsonBool : public JsonValue
 {
 public:

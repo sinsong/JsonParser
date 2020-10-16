@@ -3,6 +3,7 @@
 
 #include "jsonparser/AST/JsonValue.h"
 
+// 整数
 class JsonInteger : public JsonValue
 {
 public:

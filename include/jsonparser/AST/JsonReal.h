@@ -3,6 +3,7 @@
 
 #include "jsonparser/AST/JsonValue.h"
 
+// 实数
 class JsonReal : public JsonValue
 {
 public:

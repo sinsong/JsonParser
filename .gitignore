@@ -36,3 +36,8 @@
 
 # vscode CMake Tools
 build
+compile_commands.json
+.cache
+
+# clangd
+.clangd

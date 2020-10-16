@@ -3,6 +3,7 @@
 
 #include "jsonparser/AST/JsonValue.h"
 
+// 空值
 class JsonNull : public JsonValue
 {
 public:

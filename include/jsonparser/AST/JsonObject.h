@@ -6,6 +6,7 @@
 
 #include "jsonparser/AST/JsonValue.h"
 
+// 对象
 class JsonObject : public JsonValue
 {
 public:

@@ -5,6 +5,7 @@
 
 #include <string>
 
+// 字符串
 class JsonString : public JsonValue
 {
 public:

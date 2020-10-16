@@ -5,6 +5,7 @@
 #include <istream>
 #include <memory>
 
+// 词法分析器
 class Lexer
 {
 public:
